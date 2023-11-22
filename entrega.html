@@ -2,92 +2,55 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-        NOME | Voce encontrara as melhores lanches de itajuba e
-        região!
-    </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href=" " rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <marquee behavior="scroll" direction="left">
-        MC LOVIN HAMBURGUERIA
-    </marquee>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.2.css">
+    <title>Página de Login </title>
 </head>
-<header>
-    <div class="menu">
-        <img src="2.png" width="100">
 
 
-        <nav>
-            <ul>
 
-                <li><a href="sobre.html">
-                        <ion-icon name="people-outline" style="font-size: 1.5rem;"></ion-icon> 💫 Sobre Nós
-                    </a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<main>
-    <div class="container">
-        <div class="informacoes">
-            <h3>Aberto Finais de Semana apartir das 18:00</h3>
-            <h1>MC lovin grill</h1>
-            <p>Seja bem-vindo a MVLOVIN hamburgueria, aqui você encontrara os melhores lanches da regiao! <br> Venha
-                apreciar o
-                sabor do nosso lanche, Lealdade e qualidade é o nosso lema.</p>
-            <div class="botoes">
-                <a href="cardapio.html" class="cardapio">Ver cardapio <ion-icon
-                        name="arrow-forward-outline"></ion-icon></a>
-                <a href="contato.html" class="contato">Entrar em contato <ion-icon name="call-outline"></ion-icon></a>
+<body>
+
+
+
+    <div class="login-container">
+        <h2>Pagamento</h2>
+        <form>
+            <div class="input-group">
+                <label for="username">ENDEREÇO:</label>
+                <input type="text" id="username" name="username" required>
             </div>
-        </div>
-    </div>
-
-
-    <div id="contato">
-        <h1>Contato e Localizacao</h1><br> <br>
-        <div class="container2">
-            <div class="localizacao">
-                <h2>ESTAMOS LOCALIZADOS NO </h2><br>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14366.209073655684!2d-48.54652115381971!3d-25.818341184896727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dbef066c24276b%3A0xc1e367c6ab65e9!2sPrime%20burger%20%26%20Beer%20Hamb%C3%BArguer%20Artesanal%20de%20Costela!5e0!3m2!1spt-BR!2sbr!4v1697024441172!5m2!1spt-BR!2sbr"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-
-
-                <div class="contatos">
-                    <ul>
-                        <li style="font-size: 1.2rem; font-weight: 500;">ENDEREÇO MC lovin grill</li>
-                        <li><ion-icon name="location-outline"></ion-icon> R. Itaporã, 331, Matinhos - PR, 83260-000
-                        </li>
-                        <li><ion-icon name="call-outline"></ion-icon> Tel: (43) 99962-3949 e (43) 9803-2619</li>
-                        <li><ion-icon name="mail-outline"></ion-icon> contato@mclovin.com.br</li>
-                    </ul>
-                </div>
+            <div class="input-group">
+                <label for="password">Nº CASA:</label>
+                <input type="password" id="password" name="password" required>
             </div>
-        </div>
+            <div class="input-group">
+                <label for="password">TELEFONE:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <fieldset>
+                <legend>PAGAMENTO ANTECIPADO</legend>
+                <select>
+                    <option>---------</option>
+                    <option>PIX</option>
+                </select>
+            </fieldset>
 
-</main>
-<footer>
-    <ul>
+            <fieldset>
+                <legend>NA ENTREGA</legend>
+                <select>
+                    <option>---------</option>
+                    <option>DINHEIRO</option>
+                    <option>CARTÃO</option>
+                </select>
+            </fieldset>
 
-        <li>Copyright © <b>MCLOVIN</b></li>
-        <li>Desenvolvimento: Luiz e Danilo <a href="" target="_blank">
-            </a></li>
-    </ul>
-</footer>
-<script type="module" src=" "></script>
-<script nomodule src=" "></script>
+            <button type="submit"><a href="final.html">FINALIZAR</a></button>
+
+        </form>
+    </div>
 </body>
 
 </html>
