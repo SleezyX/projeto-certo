@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 .container {
-    background-image: linear-gradient(to bottom, transparent 0%, black 120%), url(1r.webp);
+    background-image: linear-gradient(to bottom, transparent 0%, black 120%), url(1..png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
